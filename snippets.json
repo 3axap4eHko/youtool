@@ -1,14 +1,14 @@
 {
     "demo":{
-        "author": "3axap4eHko",
-        "version": "1.0",
+        "author":     "3axap4eHko",
+        "version":    "1.0",
         "background": ["demo/demo.js"],
-        "styles": ["demo/demo.css"]
+        "styles":     ["demo/demo.css"]
     },
     "anti-ads" : {
-        "author": "3axap4eHko",
-        "version": "1.0",
+        "author":     "3axap4eHko",
+        "version":    "1.0",
         "background": ["anti-ads/background.js"],
-        "content": ["anti-ads/content.js"]
+        "content":    ["anti-ads/content.js"]
     }
 }
