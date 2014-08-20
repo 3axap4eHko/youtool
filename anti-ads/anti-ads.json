@@ -1,0 +1,6 @@
+{
+    "author": "3axap4eHko",
+    "version": "1.0",
+    "background": ["background.js"],
+    "content": ["content.js"]
+}
