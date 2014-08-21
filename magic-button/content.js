@@ -2,7 +2,7 @@
     function parseUri(str, result){
     	var glue1 = '=';
     	var glue2 = '&';
-    	var result = result || {};
+    	result = result || {};
         str.split(glue2).forEach(function(expr){
     		var tmp = expr.split(glue1);
     		result[unescape(tmp[0])] = unescape(tmp[1]).replace(/[+]/g, ' ');
@@ -31,8 +31,8 @@
 
     function youtubeDownload(videoId, callback)
     {
-        var infoXhr = XHR({
-            url : 'http://www.youtube.com/get_video_info?video_id='+videoId,
+        XHR({
+            url : 'https://www.youtube.com/get_video_info?video_id='+videoId,
             onload: function(response){
                 var info = parseUri(response);
                 var streams = info['url_encoded_fmt_stream_map'].split(','); 
@@ -47,7 +47,7 @@
                     real_stream['url'] += '&signature=' + real_stream['sig'];  
                     results.qualities.push(real_stream);  
                 }
-                var xhr = XHR({
+                XHR({
                     url: info['thumbnail_url'],
                     dataType: 'blob',
                     onload: function(blob){
