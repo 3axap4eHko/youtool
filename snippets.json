@@ -4,6 +4,7 @@
         "version":    "1.0",
         "description":"Demo snippet that make background black and write console 'demo'",
         "background": ["demo/demo.js"],
+        "content":    ["demo/script.js"],
         "styles":     ["demo/demo.css"]
     },
     "anti-ads" : {
