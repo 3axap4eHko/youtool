@@ -23,7 +23,7 @@
         xhr.open((options.method || 'get').toUpperCase(), options.url, true);
         xhr.onload = function(){
             options.onload(xhr.response);
-        }
+        };
         xhr.send(options.data || null);
 
         return xhr;
@@ -47,18 +47,7 @@
                     real_stream['url'] += '&signature=' + real_stream['sig'];  
                     results.qualities.push(real_stream);  
                 }
-                XHR({
-                    url: info['thumbnail_url'],
-                    dataType: 'blob',
-                    onload: function(blob){
-                        var reader = new window.FileReader();
-                        reader.readAsDataURL(blob); 
-                        reader.onloadend = function() {
-                            results.dataThumbnail = reader.result;
-                            callback(results);
-                        }
-                    }
-                });
+                callback(results);
             }
         });
     }
