@@ -1,0 +1,43 @@
+.ytp-button.ytp-button-download {
+    float: right;
+    cursor: pointer;
+    outline: 0 none;
+    ms-high-contrast-adjust: none;
+    width: 30px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbCAYAAABr/T8RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuM4zml1AAAABeSURBVEhL7dDBCsAgDAPQfnL//zIvKYh0TJxNL3mQi2gCmsgbd38iOOLQMI2GaWjD89BX8OSebGQNrt6XjUVwpU7LaGgZDS2jZeav/BtU7skKToPKPVnBaVApwmA2AE8qDivlRQHFAAAAAElFTkSuQmCC);
+}
+.yt-popup {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: absolute;
+    top: 30%;
+    width: 120px;
+    color: #fff;
+}
+
+.yt-popup .yt-popup-close {
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    float: right;
+    width: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.yt-popup a.yt-link {
+    margin: 5px 5px;
+    display: block;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
