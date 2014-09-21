@@ -20,7 +20,9 @@
             '://advertising.',
             '/advertising/',
             'r.mradx.net/',
-            'adriver.ru'
+            'adriver.ru',
+            '/ads.js',
+            '/ads.css'
         ];
 
     chrome.webRequest.onBeforeRequest.addListener(
