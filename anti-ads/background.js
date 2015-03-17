@@ -21,6 +21,8 @@
             '/advertising/',
             'r.mradx.net/',
             'adriver.ru',
+            'marketgid.com/',
+            'banner-rad.com/',
             '/ads.js',
             '/ads.css'
         ];
