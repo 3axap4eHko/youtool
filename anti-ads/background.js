@@ -18,7 +18,7 @@
             '/ads/',
             '://ads.',
             '://advertising.',
-            'directadvert.ru/'
+            'directadvert.ru/',
             '/advertising/',
             'r.mradx.net/',
             'adriver.ru',
