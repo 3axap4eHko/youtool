@@ -21,6 +21,7 @@
             'directadvert.ru/',
             '/advertising/',
             'r.mradx.net/',
+            'trafmag.com/',
             'adriver.ru',
             'marketgid.com/',
             'banner-rad.com/',
