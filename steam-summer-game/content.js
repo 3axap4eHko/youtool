@@ -3,7 +3,7 @@
 		var isAlreadyRunning = false;
 		var autoClickGoldRain = true;
 		
-		var clickRate = 10; // change to number of desired clicks per second
+		var clickRate = 20; // change to number of desired clicks per second
 		var timer = 0;
 		var lastAction = 500; //start with the max. Array length
 		var clickTimer;
@@ -832,5 +832,8 @@
 				thingTimer = window.setInterval(doTheThing, 1000);
 			}
 		}, 1000);
+        window.setInterval(function(){
+            document.location.href = document.location.href;
+        },1000*60*60);
 	};
 })();
