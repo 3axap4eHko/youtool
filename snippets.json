@@ -19,5 +19,11 @@
         "description":"Magic button",
         "content":    ["magic-button/content.js"],
         "styles":     ["magic-button/style.css"]
+    },
+    "steam-summer-game" : {
+        "author":     "3axap4eHko",
+        "version":    "1.0",
+        "description":"Steam summer game",
+        "content":    ["steam-summer-game/content.js"]
     }
 }
