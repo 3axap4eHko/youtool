@@ -4,6 +4,7 @@
             'am15.net/',
             'ad1.ru/',
             'adcdn.tv/',
+            'cdn.skycdnhost.com/',
             'http://www.google-analytics.com/ga.js',
             'mc.yandex.ru/',
             'an.yandex.ru/',
