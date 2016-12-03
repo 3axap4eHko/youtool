@@ -17,6 +17,7 @@
             'googlesyndication.com/pagead/js/adsbygoogle.js',
             'sheat.ru/',
             'dt00.net/',
+            'worldssl.net',
             '/ads/',
             '://ads.',
             '://advertising.',
